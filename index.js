@@ -1,4 +1,4 @@
-let PORT = process.env.PORT || 5000;
+let PORT = process.env.PORT || 3000;
 const { Socket } = require('dgram');
 
 let app = require('express')();
