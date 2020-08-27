@@ -41,3 +41,4 @@ io.on('connection', (socket) => {
   })
 
 });
+$('list-group-item')[0].scrollTop = $('list-group-item')[0].scrollHeight
