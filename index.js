@@ -41,4 +41,3 @@ io.on('connection', (socket) => {
   })
 
 });
-$("#cet").scrollTop($("#cet")[0].scrollHeight);
