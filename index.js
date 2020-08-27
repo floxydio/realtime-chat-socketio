@@ -41,3 +41,6 @@ io.on('connection', (socket) => {
   })
 
 });
+
+var objDiv = document.getElementById("cet");
+objDiv.scrollTop = objDiv.scrollHeight;

@@ -26,7 +26,6 @@
                     <input type="text" class="form-control col-9" v-model="name" placeholder="Put your username...">
                     <input type="submit" value="Add" class="btn btn-sm btn-danger ml-1 col-2">
                     <p>Aplikasi ini masih ada bug di scroll chat, Kami akan fix as soon as possible :D</p>
-               
                 </div>
             </form>
             <div class="card bg-danger" v-if="ready">
@@ -34,7 +33,7 @@
                     Chat Real-time by io :D
                     <span class="float-right">{{connectionCount}} connections, {{online.length}} Online</span>
                 </div>
-                <div style="overflow:auto; height: 200px;">
+                <div id="cet" style="overflow:auto; height: 200px;">
                 <ul class="list-group list-group-flush text-right">
                     <small v-if="typing" class="text-white">
                         <i>{{typing}} is typing</i>
