@@ -1,6 +1,4 @@
 let PORT = process.env.PORT || 3000;
-const { Socket } = require('dgram');
-
 let app = require('express')();
 let http = require('http').createServer(app);
 let io = require('socket.io')(http);
@@ -10,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 
-http.listen(3000, () => {
+http.listen(PORT, () => {
     console.log('Connected done');
   });
 
